@@ -6,6 +6,9 @@
 
 .flex-container {
     display: flex;
+}
+
+.container-main {
     flex-direction: column;
     height: 1000px;
 }
