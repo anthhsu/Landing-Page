@@ -4,11 +4,8 @@
     background-color: #1F2937;
 }
 
-.flex-container {
-    display: flex;
-}
-
 .container-main {
+    display: flex;
     flex-direction: column;
     height: 1000px;
 }
