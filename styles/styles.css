@@ -1,7 +1,13 @@
+.header,
+.footer{
+    height: 50px;
+    background-color: #1F2937;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 1000px;
 }
 
 .flex-container div {
@@ -9,4 +15,22 @@
     width: 100%;
     flex: 1 1 auto;
     border: 10px;
+}
+
+.section-hero {
+    background-color: #1F2937;
+}
+
+.section-quote {
+    background-color: #E5E7EB;
+}
+
+.section-info,
+.section-call {
+    background-color: white;
+}
+
+.call-to-action,
+button {
+    background-color: #3882F6;
 }
