@@ -40,6 +40,40 @@ body {
     flex: 1 1 auto;
 }
 
+.section-hero {
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.hero-subcontainer-left {
+    flex: 1 1 auto;
+}
+
+#hero-title {
+    font-size: 48px;
+    font: 'extra-bold';
+    color: #F9FaF8;
+}
+
+#hero-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-subcontainer-right {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.hero-subcontainer-right img {
+    height: 100px;
+    width: 100px;
+}
+
 .container-main {
     display: flex;
     flex-direction: column;
@@ -51,10 +85,6 @@ body {
     width: 100%;
     flex: 1 1 auto;
     border: 10px;
-}
-
-.section-hero {
-    background-color: #1F2937;
 }
 
 .section-quote {
