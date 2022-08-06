@@ -4,13 +4,45 @@
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header div {
+    flex: 1 1 auto;
+}
+
 .container-main {
     display: flex;
     flex-direction: column;
     height: 1000px;
 }
 
-.flex-container div {
+.container-main div {
     height: 100%;
     width: 100%;
     flex: 1 1 auto;
